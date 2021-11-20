@@ -1,0 +1,32 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+.stay-tuned {
+    overflow-y: auto;
+    height: 100vh;
+    position: relative;
+}
+
+.stay-tuned img.stay-tuned-image {
+    width: 100%;
+}
+
+.stay-tuned a.instagram-image {
+    position: absolute;
+    z-index: 1;
+    top: 0px;
+    right: 0px;
+}
+
+.stay-tuned a.instagram-image img {
+    width: 65px;
+    border-bottom-left-radius: 16px;
+}
